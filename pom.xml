@@ -291,6 +291,17 @@
 
   <repositories>
     <repository>
+  <id>petclinic</id>
+  <url>https://pkgs.dev.azure.com/vidyasagarkotte0169/Firstpro/_packaging/petclinic/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+  </repository>
+    
+    <repository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
       <url>https://repo.spring.io/snapshot</url>
